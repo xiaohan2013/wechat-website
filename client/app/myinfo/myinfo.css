@@ -1,0 +1,25 @@
+.myinfobg{
+    width: 100%;
+}
+.myinfo{
+    width: 986px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.titletyle{
+    width: 986px;
+    border:1px solid #9c9c9c ;
+
+
+}
+.borderstyle{
+    border:1px solid #9c9c9c ;
+    height: 500px;
+}
+.fontstyle{
+    font-weight: bold;
+    font-size:2em  ;
+    margin-top: auto;
+    margin-bottom: auto;
+}

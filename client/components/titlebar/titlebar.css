@@ -1,0 +1,39 @@
+.titlebar{
+    width: 100%;
+
+}
+.titlebar1{
+    width: 986px;
+    /*width: 100%;*/
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*.bar-style{*/
+    /*width: 986px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+/*}*/
+.colheight{
+    height: 80px;
+
+}
+.font_size{
+    font-size:2em;
+    color: #b6b6b6;
+}
+.service_time {
+    font-size:1.1em;
+    color: #b6b6b6;
+    text-align:left;
+}
+
+.heightmiddle{
+    /*height: 0px;*/
+    width:5em;
+    height:5em;
+    margin-bottom: 100%;
+}
+.titlebarbg{
+    background-color: #ebebeb;
+}

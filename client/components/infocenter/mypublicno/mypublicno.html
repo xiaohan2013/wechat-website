@@ -1,0 +1,66 @@
+<div ng-controller="mypublicnoCtrl">
+    <div id="info-pub-num">
+        <table class="table table-bordered">
+            <tr>
+                <td colspan="7" id="">
+                    <span class="balance">账户总额 账户余额 图片 </span>
+                    <input  class="btn btn-lg add-style" type="button"value="添加微信公众号+" id="#activitystep1">
+                </td>
+            </tr>
+            <tr>
+                <th class="table-size">
+                    <p>公众号</p>
+                </th>
+                <th class="table-size">
+                    <p>公众号名称</p>
+                </th>
+                <th class="table-size">
+                    <p>公众号类型</p>
+                </th>
+                <th class="table-size">
+                    <p>账户金额</p>
+                </th>
+                <th class="table-size">
+                    <p>状态</p>
+                </th>
+                <th class="table-size">
+                    <p>结束日期</p>
+                </th>
+
+            </tr>
+
+            <tr ng-repeat="item in wechatlist| offset:currentPage*itemsPerPage | limitTo: itemsPerPage  ">
+                <td>
+                  {{item._id}}
+                </td>
+                <td>
+                   {{item.name}}
+                </td>
+                <td>
+                    {{item.type}}
+                </td>
+                <td>
+                    {{item.lotteryAccount}}
+                </td>
+                <td>
+                    {{item.status}}
+                </td>
+                <td>
+                    {{item.finishDate}}
+                </td>
+
+            </tr>
+        </table>
+        <!--<div >-->
+            <!--<li  ng-repeat="item in wechatlist track by $index">-->
+            <!--{{item._id}}</li>-->
+        <!--</div>-->
+        <nav>
+            <ul class="pagination">
+                <li><a ng-class="prevPageDisabled()" ng-click="prevPage()">&laquo;</a></li>
+                <li><a ng-repeat="n in getnumberlist()" ng-click="setpage(n-1)">{{n}}</a></li>
+                <li><a ng-class="nextPageDisabled()" ng-click="nextPage()">&raquo;</a></li>
+            </ul>
+        </nav>
+    </div><!-- info-pub-num end -->
+</div>

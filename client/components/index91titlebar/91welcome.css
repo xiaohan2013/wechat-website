@@ -1,0 +1,41 @@
+@charset "UTF-8";
+.header_bg{
+    background: #ebebeb;
+    height: 3em;
+}
+#centernav {
+    padding:0 15%;
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+#centernav nav {
+    margin-top: 0em ;
+    margin-left: 34em;
+    padding: 0.5em 1em;
+}
+#centernav span{
+    color:#9C9C9C;}
+
+#centernav nav ul {
+    list-style: none;
+}
+#centernav nav ul li {
+    display: block;
+    float: left;
+}
+#centernav nav ul li a {
+    font-size: 1.2em;
+    color: #9C9C9C;
+    padding:0;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+
+    font-weight: 50;
+    text-decoration:none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}

@@ -1,0 +1,29 @@
+.still-active {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.still-active-help {
+    width: 100%;
+    height: 30px;
+    margin-top: 1.6em;
+    text-align: center;
+}
+
+.still-active-pic {
+    width: 8em;
+    margin-left: 2.5em;
+}
+
+.still-active-instruction {
+    margin-left: 5em;
+    color: #000000;
+    font:bold "宋体";
+}
+
+.servercenter {
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 986px;
+}

@@ -1,0 +1,31 @@
+#info-pub-num{
+    font-size:16px;
+    height:518px;
+    width:748px;
+    z-index:1;
+    padding:15px;
+}
+.add-style{
+    float: right;
+    background: #c9302c;
+    color: #ffffff;
+    font-size: 13px;
+    width: 12em ;
+    height: 3em;
+}
+.table-size{
+    height: 10px;
+    background: #9c9c9c;
+}
+.balance {
+    height: 10px;
+}
+.change-po {
+    padding-left: 10em;
+}
+.change-pi {
+    width: 1.2em;
+    height: 1.2em;
+    padding-top: 1px;
+    margin-right: 1em;
+}

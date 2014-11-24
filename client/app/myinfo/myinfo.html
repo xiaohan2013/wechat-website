@@ -1,0 +1,31 @@
+<!--<div ng-include="'components/navbar/navbar.html'"></div>-->
+<div ng-include="'components/titlebar/titlebar.html'"></div>
+
+<!--这里你只要改下面的样式就行了-->
+<div ng-include="'components/indexloginbar/navcenter.html'">
+
+</div>
+
+<div class="myinfobg">
+    <div class="row myinfo">
+            <div class="titletyle"><p class="fontstyle">我的信息</p></div>
+            <div>
+                <div class="col-sm-2 borderstyle">
+                   <div ng-include="'components/infocenter/activityleftmenu/activityleftmenu.html'">
+
+                   </div>
+                </div>
+
+                <div class="col-sm-10 borderstyle">
+                    <div ui-view="">
+
+                    </div>
+                </div>
+            </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <div  ng-include="'components/footer/footer.html'">
+    </div>
+</footer>

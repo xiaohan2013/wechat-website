@@ -1,0 +1,34 @@
+<div class="header">
+    <div class=""  ng-controller="titlebarCtrl">
+        <div class="nav navbar-default container-fluid titlebarbg">
+            <div class="titlebar1">
+                <p class="navbar-text navbar-right ">
+                    <span class="navbar-link " ng-show="isLoggedIn()" >欢迎您登录！</span>
+                    <a class="navbar-link " href="/myinfo" ng-show="isLoggedIn()" ng-bind="getcurrentuser().email"></a>
+                    <!--<a class="navbar-link " href="/contact">联系我们|</a>-->
+                    <!--<a class="navbar-link" href="/help">帮助</a>-->
+                    <!--<a class="navbar-link" href="/myinfo">我的信息</a>-->
+                    <!--<a class="navbar-link" href="/signup">注册</a>-->
+                    <a class="navbar-link" href="" ng-show="isLoggedIn()" ng-click="logout()">注销</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="row titlebar1">
+            <div class="col-sm-8 colheight">
+                <a ng-href="{{logo.logourl}}"> <img src="assets/images/logo.png"></a>
+            </div>
+            <div class="col-sm-1 colheight">
+                <img class="heightmiddle" src="assets/images/oncall.png">
+            </div>
+            <div class="col-sm-3">
+                <div class="row font_size">
+                    400-888-888
+                </div>
+                <div class="row service_time">
+                    服务时间：08:30-17:30
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

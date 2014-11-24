@@ -1,0 +1,24 @@
+#info-basic {
+    height:518px;
+    width:748px;
+    z-index:1;
+    padding:15px;
+
+}
+.info-font {
+    font-size:2em;
+}
+.info-font-float{
+    font-size:2em;
+    margin-left: 18em;
+}
+.info-img {
+    margin-top:-1em;
+    width:2em;
+    height: 2em;
+}
+.list-style {
+    list-style-type: none;
+    padding: 0px;
+    font-size:16px;
+}

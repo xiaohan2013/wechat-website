@@ -1,0 +1,40 @@
+table.contactTab {
+    overflow:hidden;
+    float: none;
+    margin-left: 15em;
+    font-size:1em;
+    width: 68%;
+    height: 15em;
+    border-width: 1px;
+    border-color: #ebebeb;
+    border-style: solid;
+}
+
+table.contactTab th {
+    height: 2em;
+    padding-left:2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+}
+table.contactTab td {
+    height: 20em;
+    font: bold "宋体";
+    margin-bottom: 1px;
+    padding-left:2em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ebebeb;
+}
+table.contactTab th a {
+    color:#000000;
+}
+
+#help-info
+{   font-size:16px;
+    margin-left: auto;
+    margin-right: auto;
+    height:518px;
+    width:986px;
+    padding:15px;
+    border:1px #cccccc solid;}

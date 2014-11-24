@@ -1,0 +1,49 @@
+
+.login-in {
+    float: right;
+    margin-top: 0px;
+    margin-right: 0px ;
+    border: #e7e5e5;
+    background-color: #ffffff;
+    margin-right: 2em ;
+    width: 24em ;
+    height:16em ;
+}
+.buttonClass
+{
+    background: #c9302c;
+    margin-top: 0.8em;
+    color: #ffffff;
+    font-family: "宋体";
+    font-size: 23px;
+    width: 13.3em ;
+}
+
+.banner1{
+    background-image: url(../../assets/images/banner.jpg);
+    width: 986px ;
+    height:400px ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+}
+.bannerbg{
+    background-color:#f54b29;
+    width: 100% ;
+    height:400px ;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+}
+
+.inputoffset{
+    padding-left: 25px;
+
+}
+
+.code-position {
+    float: left;
+    margin-top: 0.7em;
+    width: 4.5em;
+    height:1.8em
+}
