@@ -24,7 +24,7 @@ angular.module('weixinLotteryWebsiteApp')
           }
         )
           .then(function(){
-            $location.path('/myinfo');
+            $location.path('/myinfo/basicinfo/info');
             $scope.error=true;
             console.log('登录成功！')
           })

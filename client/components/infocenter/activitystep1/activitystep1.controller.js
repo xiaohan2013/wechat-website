@@ -2,7 +2,7 @@
  * Created by Administrator on 2014/11/19.
  */
 angular.module('weixinLotteryWebsiteApp')
-  .controller('activitystep1Ctrl',function($scope,Wechats,Auth, datepickerPopupConfig)
+  .controller('activitystep1Ctrl',function($scope,Wechats,Auth, datepickerPopupConfig,$location)
   {
     $scope.wechat={
       wechatid:'id',//公众号ID
@@ -63,10 +63,13 @@ angular.module('weixinLotteryWebsiteApp')
         console.log(postData);
         Wechats.save({},postData,function(data){
             console.log('添加成功');
+
             console.log(data);
           //
           Auth.addWechat($scope.wechat.wechatid).then(  function () {
               console.log('绑定成功');
+              alert('添加成功！');
+              $location.path("/myinfo/mypublicno");
             }).catch( function () {
 
             });

@@ -15,7 +15,7 @@ angular.module('weixinLotteryWebsiteApp')
         $scope.logo={};
         if($scope.isLoggedIn())
           {
-            $scope.logo.logourl="/myinfo";
+            $scope.logo.logourl="/myinfo/basicinfo/info";
           }
           else{
             $scope.logo.logourl="/";

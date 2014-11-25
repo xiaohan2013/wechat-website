@@ -4,7 +4,7 @@
             <div class="titlebar1">
                 <p class="navbar-text navbar-right ">
                     <span class="navbar-link " ng-show="isLoggedIn()" >欢迎您登录！</span>
-                    <a class="navbar-link " href="/myinfo" ng-show="isLoggedIn()" ng-bind="getcurrentuser().email"></a>
+                    <a class="navbar-link " href="/myinfo/basicinfo/info" ng-show="isLoggedIn()" ng-bind="getcurrentuser().email"></a>
                     <!--<a class="navbar-link " href="/contact">联系我们|</a>-->
                     <!--<a class="navbar-link" href="/help">帮助</a>-->
                     <!--<a class="navbar-link" href="/myinfo">我的信息</a>-->
@@ -16,7 +16,8 @@
 
         <div class="row titlebar1">
             <div class="col-sm-8 colheight">
-                <a ng-href="{{logo.logourl}}"> <img src="assets/images/logo.png"></a>
+                <a> <img src="assets/images/logo.png"></a>
+                <!--<a ng-href="{{logo.logourl}}"> <img src="assets/images/logo.png"></a>-->
             </div>
             <div class="col-sm-1 colheight">
                 <img class="heightmiddle" src="assets/images/oncall.png">

@@ -2,12 +2,16 @@
  * Created by Administrator on 2014/11/20.
  */
 angular.module('weixinLotteryWebsiteApp')
-  .controller('mypublicnoCtrl',function($scope,Auth)
+  .controller('mypublicnoCtrl',function($scope,Auth,$location)
   {
 
 
     $scope.wechatlist=[];
     $scope.number=[];
+
+    $scope.gotoaddwechat = function(){
+      $location.path("/myinfo/infocenter/activitystep1")
+    };
 
     Auth.getWechats()
       .then(function(user){
