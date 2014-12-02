@@ -16,7 +16,7 @@ angular.module('weixinLotteryWebsiteApp')
         })
         .then( function() {
           // Account created, redirect to home
-          $location.path('/');
+          $location.path('/myinfo/basicinfo/info');
         })
         .catch( function(err) {
           err = err.data;
